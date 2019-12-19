@@ -1,0 +1,71 @@
+@font-face{
+    font-family: Helvetica-Neue-Light;
+    src: url("./assets/fonts/helveticaneue-light.ttf");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+body{
+    background: #eeeeee;
+}
+
+header
+{
+ height: 100vh;
+ background-image: url("./assets/1x/banner_1.png");
+ /* flex-box thing */
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ background-size: cover; 
+ margin-bottom: 30px;
+}
+
+#title{
+    text-align: left;
+    padding-left: 15vw;
+    font-family: Helvetica-Neue-Light; 
+    font-weight: 250;
+    font-size: 88px; 
+    color: #fefcfd;
+}
+
+#abstract{
+    padding-left: 25vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 34px; 
+    text-align: left;
+}
+
+.abstract-highlight{
+    color:red;
+}
+
+#down
+{
+ position: absolute;
+ top:85vh;
+ padding: 20px;
+ font-size: 2.5em;
+}
+#down:hover
+{
+ cursor: pointer;
+ background-color: #eee;
+ opacity: 0.8;
+}
+
+.filler{
+    height: 300px;
+}
+
+
+.white-text{
+    color: white;
+}
