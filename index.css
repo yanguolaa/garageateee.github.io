@@ -1,3 +1,4 @@
+
 @font-face{
     font-family: Helvetica-Neue-Light;
     src: url("./assets/fonts/helveticaneue-light.ttf");
@@ -22,10 +23,10 @@ header
  flex-direction: column;
  justify-content: center;
  background-size: cover; 
- margin-bottom: 30px;
 }
 
 #title{
+    padding-top: 18%;
     text-align: left;
     padding-left: 15vw;
     font-family: Helvetica-Neue-Light; 
@@ -69,3 +70,44 @@ header
 .white-text{
     color: white;
 }
+
+
+#contact{
+    text-align: center;
+    font-family: Helvetica-Neue-Light;
+    font-weight: bold;
+    font-size: 50px;
+    color: #595958;
+  }
+  
+  #details{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 250;
+    font-size: 25px;
+    text-align: center;
+    color: #595958;
+  }
+  
+  #rights{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  
+  
+  }
+  
+  #icon{
+    display: flexbox;
+  }
+
+  footer
+  {
+    height: 450px;
+    background-image: url("./assets/1x/footer.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover; 
+
+   }
+
