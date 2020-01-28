@@ -36,6 +36,46 @@ header
     color: #fefcfd;
 }
 
+#OurMission{
+    background:url("assets/1x/mission_bg.png");
+    padding: 60px;
+}
+
+#OurMission h1{
+    color:#FEFCFD;
+    font-family: arial;
+    font-size: 34px;
+    text-align: center;
+    display: block;
+}
+
+#OurMission p{
+    color:#FEFCFD;
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+}
+
+#AboutUs{
+    background-color: #f8f7fd;
+    padding: 60px;
+}
+#AboutUs h1{
+    color:#747474;
+    font-family: arial;
+    font-size: 34px;
+    text-align: center;
+}
+
+#AboutUs p{
+    color:#747474;
+    font-family: arial;
+    font-size: 20px;
+    text-align:justify;
+    margin-left:90px;
+    margin-right:90px;
+}
+
 #abstract{
     padding-left: 20vw;
     font-family: Arial, Helvetica, sans-serif;
